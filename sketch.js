@@ -49,6 +49,11 @@ function draw() {
   stone1.display();
   sling1.display();
   detectcollition(stone1,mango1);
+  detectcollition(stone1,mango2);
+  detectcollition(stone1,mango3);
+  detectcollition(stone1,mango4);
+  detectcollition(stone1,mango5);
+
 }
 
 function mouseDragged(){
